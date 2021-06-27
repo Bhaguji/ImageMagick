@@ -1,5 +1,7 @@
 name: Bug report
 description: Create a report to help us improve
+body: report
+description: Create a report to help us improve
 body:
 - type: checkboxes
   attributes:
@@ -25,7 +27,7 @@ body:
       - MacOS
       - Other (enter below)
   validations:
-    required: true
+    required: false
 - type: input
   attributes:
     label: Operating system, version and so on
